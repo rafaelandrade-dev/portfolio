@@ -23,6 +23,15 @@ import {
     jobit,
     tripguide,
     threejs,
+    unipe,
+    graficajb,
+    swift,
+    kotlin,
+    jquery,
+    sql,
+    bootstrap,
+    php,
+    todo
 } from "../assets";
 
 export const navLinks = [
@@ -42,21 +51,17 @@ export const navLinks = [
 
 const services = [
     {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
     },
     {
-    title: "React Native Developer",
+    title: "Mobile Developer",
     icon: mobile,
     },
     {
     title: "Backend Developer",
     icon: backend,
-    },
-    {
-    title: "Content Creator",
-    icon: creator,
-    },
+    }
 ];
 
 const technologies = [
@@ -73,191 +78,163 @@ const technologies = [
     icon: javascript,
     },
     {
-    name: "TypeScript",
-    icon: typescript,
-    },
-    {
     name: "React JS",
     icon: reactjs,
     },
     {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "jQuery",
+    icon: jquery,
     },
     {
     name: "Tailwind CSS",
     icon: tailwind,
     },
     {
-    name: "Node JS",
-    icon: nodejs,
-    },
-    {
-    name: "MongoDB",
-    icon: mongodb,
-    },
-    {
-    name: "Three JS",
-    icon: threejs,
+    name: "Bootstrap",
+    icon: bootstrap,
     },
     {
     name: "git",
     icon: git,
     },
     {
-    name: "figma",
-    icon: figma,
+    name: "PHP",
+    icon: php,
     },
     {
-    name: "docker",
-    icon: docker,
+    name: "SQL",
+    icon: sql,
     },
+    {
+    name: "Swift",
+    icon: swift,
+    },
+    {
+    name: "Kotlin",
+    icon: kotlin,
+    }
 ];
 
 const experiences = [
     {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "Software Factory - Unipê",
+    icon: unipe,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2023 - Jun 2023",
     points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-    },
-    {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-    },
-    {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
     ],
     },
     {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    company_name: "Gráfica JB",
+    icon: graficajb,
+    iconBg: "#383E56",
+    date: "Jul 2023 - Present",
     points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and making several improvements to the web application",
+        "Program with PHP using Laravel and deepen my knowledge in Javascript using jQuery, and several libraries for charts and other things",
+        "Debugging different parts of the application, as the bugs kept coming",
+        "Participating in daily meetings and providing constructive feedback to other developers.",
     ],
-    },
+    }
 ];
 
 const testimonials = [
     {
+    title: "Fluent English",
     testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "This feature makes it possible for me to go further in my studies and work",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
     },
     {
+    title: "Volleyball player",
     testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Since i am a child i love to play beach volleyball and others sports, that made my social skills very good",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
     },
     {
+    title: "Artist",
     testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "I like to draw sometimes, that skill taught me how to be patient and more creative",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
     },
 ];
 
 const projects = [
     {
-    name: "Car Rent",
+    name: "To do",
     description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "to do",
     tags: [
         {
-        name: "react",
+        name: "todo",
         color: "blue-text-gradient",
         },
         {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "todo",
+        color: "red-text-gradient",
         },
         {
-        name: "tailwind",
+        name: "todo",
         color: "pink-text-gradient",
         },
     ],
-    image: carrent,
+    image: todo,
     source_code_link: "https://github.com/",
     },
     {
-    name: "Job IT",
+    name: "To do",
     description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "To do",
     tags: [
         {
-        name: "react",
+        name: "todo",
         color: "blue-text-gradient",
         },
         {
-        name: "restapi",
+        name: "todo",
         color: "green-text-gradient",
         },
         {
-        name: "scss",
+        name: "todo",
         color: "pink-text-gradient",
         },
     ],
-    image: jobit,
+    image: todo,
     source_code_link: "https://github.com/",
     },
     {
-    name: "Trip Guide",
+    name: "To do",
     description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "To do",
     tags: [
         {
-        name: "nextjs",
+        name: "todo",
         color: "blue-text-gradient",
         },
         {
-        name: "supabase",
+        name: "todo",
         color: "green-text-gradient",
         },
         {
-        name: "css",
+        name: "todo",
         color: "pink-text-gradient",
         },
     ],
-    image: tripguide,
+    image: todo,
     source_code_link: "https://github.com/",
     },
 ];
