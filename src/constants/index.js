@@ -175,64 +175,64 @@ const testimonials = [
 
 const projects = [
     {
-    name: "To do",
+    name: "In progress",
     description:
-        "to do",
+        "This project is in progress",
     tags: [
-        {
-        name: "todo",
-        color: "blue-text-gradient",
-        },
-        {
-        name: "todo",
-        color: "red-text-gradient",
-        },
-        {
-        name: "todo",
-        color: "pink-text-gradient",
-        },
+        // {
+        // name: "todo",
+        // color: "blue-text-gradient",
+        // },
+        // {
+        // name: "todo",
+        // color: "red-text-gradient",
+        // },
+        // {
+        // name: "todo",
+        // color: "pink-text-gradient",
+        // },
     ],
     image: todo,
     source_code_link: "https://github.com/",
     },
     {
-    name: "To do",
+    name: "In progress",
     description:
-        "To do",
+        "This project is in progress",
     tags: [
-        {
-        name: "todo",
-        color: "blue-text-gradient",
-        },
-        {
-        name: "todo",
-        color: "green-text-gradient",
-        },
-        {
-        name: "todo",
-        color: "pink-text-gradient",
-        },
+    //     {
+    //     name: "todo",
+    //     color: "blue-text-gradient",
+    //     },
+    //     {
+    //     name: "todo",
+    //     color: "green-text-gradient",
+    //     },
+    //     {
+    //     name: "todo",
+    //     color: "pink-text-gradient",
+    //     },
     ],
     image: todo,
     source_code_link: "https://github.com/",
     },
     {
-    name: "To do",
+    name: "In progress",
     description:
-        "To do",
+        "This project is in progress",
     tags: [
-        {
-        name: "todo",
-        color: "blue-text-gradient",
-        },
-        {
-        name: "todo",
-        color: "green-text-gradient",
-        },
-        {
-        name: "todo",
-        color: "pink-text-gradient",
-        },
+    //     {
+    //     name: "todo",
+    //     color: "blue-text-gradient",
+    //     },
+    //     {
+    //     name: "todo",
+    //     color: "green-text-gradient",
+    //     },
+    //     {
+    //     name: "todo",
+    //     color: "pink-text-gradient",
+    //     },
     ],
     image: todo,
     source_code_link: "https://github.com/",
