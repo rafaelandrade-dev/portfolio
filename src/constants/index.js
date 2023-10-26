@@ -31,7 +31,8 @@ import {
     sql,
     bootstrap,
     php,
-    todo
+    todo,
+    dashboardApp
 } from "../assets";
 
 export const navLinks = [
@@ -175,68 +176,26 @@ const testimonials = [
 
 const projects = [
     {
-    name: "In progress",
+    name: "Dashboard",
     description:
-        "This project is in progress",
+        "This project is a Dashboard with several functionalities and a incredible amount of pages and applications using the library syncfusion for react",
     tags: [
-        // {
-        // name: "todo",
-        // color: "blue-text-gradient",
-        // },
-        // {
-        // name: "todo",
-        // color: "red-text-gradient",
-        // },
-        // {
-        // name: "todo",
-        // color: "pink-text-gradient",
-        // },
+        {
+            name: "tailwind",
+            color: "blue-text-gradient",
+        },
+        {
+            name: "react-js",
+            color: "red-text-gradient",
+        },
+        {
+            name: "syncfusion",
+            color: "pink-text-gradient",
+        },
     ],
-    image: todo,
-    source_code_link: "https://github.com/",
-    },
-    {
-    name: "In progress",
-    description:
-        "This project is in progress",
-    tags: [
-    //     {
-    //     name: "todo",
-    //     color: "blue-text-gradient",
-    //     },
-    //     {
-    //     name: "todo",
-    //     color: "green-text-gradient",
-    //     },
-    //     {
-    //     name: "todo",
-    //     color: "pink-text-gradient",
-    //     },
-    ],
-    image: todo,
-    source_code_link: "https://github.com/",
-    },
-    {
-    name: "In progress",
-    description:
-        "This project is in progress",
-    tags: [
-    //     {
-    //     name: "todo",
-    //     color: "blue-text-gradient",
-    //     },
-    //     {
-    //     name: "todo",
-    //     color: "green-text-gradient",
-    //     },
-    //     {
-    //     name: "todo",
-    //     color: "pink-text-gradient",
-    //     },
-    ],
-    image: todo,
-    source_code_link: "https://github.com/",
-    },
+    image: dashboardApp,
+    source_code_link: "https://github.com/rafaelandrade-dev/adminDashboardApp",
+    }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import dashboardApp from "./dashboardApp.png"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -40,6 +41,7 @@ import tripguide from "./tripguide.png";
 import todo from "./todo.jpeg";
 
 export {
+  dashboardApp,
   logo,
   backend,
   creator,
