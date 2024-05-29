@@ -34,6 +34,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import unipe from "./company/unipe.png"
 import graficajb from "./company/graficajb.png"
+import snet from "./company/servicenet.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -78,5 +79,6 @@ export {
   sql,
   bootstrap,
   php,
-  todo
+  todo,
+  snet
 };

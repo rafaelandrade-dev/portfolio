@@ -32,7 +32,8 @@ import {
     bootstrap,
     php,
     todo,
-    dashboardApp
+    dashboardApp,
+    snet
 } from "../assets";
 
 export const navLinks = [
@@ -134,14 +135,27 @@ const experiences = [
     company_name: "Gráfica JB",
     icon: graficajb,
     iconBg: "#383E56",
-    date: "Jul 2023 - Present",
+    date: "Jun 2023 - Sep 2023",
     points: [
         "Developing and making several improvements to the web application",
         "Program with PHP using Laravel and deepen my knowledge in Javascript using jQuery, and several libraries for charts and other things",
         "Debugging different parts of the application, as the bugs kept coming",
         "Participating in daily meetings and providing constructive feedback to other developers.",
     ],
-    }
+    },
+    {
+        title: "Frontend Developer",
+        company_name: "Service Net",
+        icon: snet,
+        iconBg: "#383E56",
+        date: "Fev 2024 - Present",
+        points: [
+            "Working with a big team and being exposed to new frameworks",
+            "Programming with Nuxt.js and Vue.js, building a vue components library from scratch",
+            "Guiding a intern with his studies and development",
+            "Being since the beginning of a project, participating on his hole story.",
+        ],
+        },
 ];
 
 const testimonials = [
