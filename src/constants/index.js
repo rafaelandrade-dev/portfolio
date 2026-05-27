@@ -168,6 +168,7 @@ const projects = [
         ],
         image: authLogin,
         source_code_link: "https://github.com/rafaelandrade-dev/auth-login-project",
+        live_link: "https://auth-login-project.vercel.app",
     },
     {
         name: "Brazilian Fintech Dashboard",
@@ -189,6 +190,7 @@ const projects = [
         ],
         image: financeDashboard,
         source_code_link: "https://github.com/rafaelandrade-dev/finance-dashboard-br",
+        live_link: "https://finance-dashboard-br.vercel.app",
     },
     {
         name: "RPG Initiative Manager",
@@ -210,6 +212,7 @@ const projects = [
         ],
         image: rpgManager,
         source_code_link: "https://github.com/rafaelandrade-dev/rpg-initiative-manager",
+        live_link: "https://rpg-initiative-manager.vercel.app",
     },
 ];
 
