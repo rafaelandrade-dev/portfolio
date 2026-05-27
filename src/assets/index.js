@@ -40,6 +40,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import todo from "./todo.jpeg";
+import authLogin from "./auth-login.png";
+import financeDashboard from "./finance-dashboard.png";
+import rpgManager from "./rpg-manager.jpg";
 
 export {
   dashboardApp,
@@ -80,5 +83,8 @@ export {
   bootstrap,
   php,
   todo,
-  snet
+  snet,
+  authLogin,
+  financeDashboard,
+  rpgManager
 };

@@ -47,11 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a quick learner so I keep studying to become a skilled software developer.<br/>
-        I can get along with any programming language, i love challenges.
-        I would love to collaborate closely with you to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Frontend-focused Web Developer with 2+ years of professional experience
+        building and maintaining full-stack JavaScript applications. At ServiceNet,
+        I helped eliminate critical production incidents on a widely-used enterprise
+        system — a milestone the team had never reached before. I coordinate interns,
+        deliver features across React.js, Vue.js, Node.js, and PHP stacks, and thrive
+        under high-pressure, fast-turnaround environments. Enrolled in Computer Science
+        at 16, graduating before 20. Fluent English (C1/C2).{" "}
+        <span className='text-white'>Let's build something reliable together.</span>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10 place-content-center'>

@@ -1,215 +1,216 @@
 import {
-    mobile,
     backend,
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    php,
+    sql,
+    jquery,
+    bootstrap,
     unipe,
     graficajb,
-    swift,
-    kotlin,
-    jquery,
-    sql,
-    bootstrap,
-    php,
-    todo,
     dashboardApp,
-    snet
+    todo,
+    snet,
+    authLogin,
+    financeDashboard,
+    rpgManager
 } from "../assets";
 
 export const navLinks = [
     {
-    id: "about",
-    title: "About",
+        id: "about",
+        title: "About",
     },
     {
-    id: "work",
-    title: "Work",
+        id: "work",
+        title: "Work",
     },
     {
-    id: "contact",
-    title: "Contact",
+        id: "contact",
+        title: "Contact",
     },
 ];
 
 const services = [
     {
-    title: "Frontend Developer",
-    icon: web,
+        title: "Frontend Developer",
+        icon: web,
     },
     {
-    title: "Mobile Developer",
-    icon: mobile,
+        title: "Backend Developer",
+        icon: backend,
     },
     {
-    title: "Backend Developer",
-    icon: backend,
-    }
+        title: "Full Stack Developer",
+        icon: creator,
+    },
 ];
 
 const technologies = [
     {
-    name: "HTML 5",
-    icon: html,
+        name: "HTML 5",
+        icon: html,
     },
     {
-    name: "CSS 3",
-    icon: css,
+        name: "CSS 3",
+        icon: css,
     },
     {
-    name: "JavaScript",
-    icon: javascript,
+        name: "JavaScript",
+        icon: javascript,
     },
     {
-    name: "React JS",
-    icon: reactjs,
+        name: "React JS",
+        icon: reactjs,
     },
     {
-    name: "jQuery",
-    icon: jquery,
+        name: "Node.js",
+        icon: nodejs,
     },
     {
-    name: "Tailwind CSS",
-    icon: tailwind,
+        name: "Tailwind CSS",
+        icon: tailwind,
     },
     {
-    name: "Bootstrap",
-    icon: bootstrap,
+        name: "Bootstrap",
+        icon: bootstrap,
     },
     {
-    name: "git",
-    icon: git,
+        name: "PHP",
+        icon: php,
     },
     {
-    name: "PHP",
-    icon: php,
+        name: "SQL",
+        icon: sql,
     },
     {
-    name: "SQL",
-    icon: sql,
+        name: "jQuery",
+        icon: jquery,
     },
     {
-    name: "Swift",
-    icon: swift,
+        name: "Git",
+        icon: git,
     },
-    {
-    name: "Kotlin",
-    icon: kotlin,
-    }
 ];
 
 const experiences = [
     {
-    title: "React.js Developer",
-    company_name: "Software Factory - Unipê",
-    icon: unipe,
-    iconBg: "#383E56",
-    date: "Feb 2023 - Jun 2023",
-    points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-    ],
+        title: "Web Developer Intern",
+        company_name: "Gráfica JB",
+        icon: graficajb,
+        iconBg: "#383E56",
+        date: "Feb 2023 – Apr 2023",
+        points: [
+            "Built and maintained web features using PHP (Laravel) and jQuery in an intern-led agile team.",
+            "Applied Git version control and RESTful API integration on a real production codebase.",
+            "Sharpened autonomous problem-solving skills by navigating complex technical challenges with limited senior oversight.",
+        ],
     },
     {
-    title: "Full stack Developer",
-    company_name: "Gráfica JB",
-    icon: graficajb,
-    iconBg: "#383E56",
-    date: "Jun 2023 - Sep 2023",
-    points: [
-        "Developing and making several improvements to the web application",
-        "Program with PHP using Laravel and deepen my knowledge in Javascript using jQuery, and several libraries for charts and other things",
-        "Debugging different parts of the application, as the bugs kept coming",
-        "Participating in daily meetings and providing constructive feedback to other developers.",
-    ],
-    },
-    {
-        title: "Frontend Developer",
-        company_name: "Service Net",
+        title: "Web Developer",
+        company_name: "ServiceNet Tecnologia",
         icon: snet,
         iconBg: "#383E56",
-        date: "Fev 2024 - Present",
+        date: "Feb 2024 – Present",
         points: [
-            "Working with a big team and being exposed to new frameworks",
-            "Programming with Nuxt.js and Vue.js, building a vue components library from scratch",
-            "Guiding a intern with his studies and development",
-            "Being since the beginning of a project, participating on his hole story.",
+            "Develop and maintain a machine control system in real production environments, implementing new features and resolving bugs across the application layer and an embedded virtual machine layer.",
+            "Contributed to eliminating critical production incidents for multiple consecutive months — the first time the team reached this milestone on a widely-used enterprise system.",
+            "Coordinate and mentor interns and junior developers on internal software projects, ensuring code quality and on-time delivery.",
+            "Deliver features across frontend (React.js, Vue.js) and backend (Node.js, PHP) stacks in a multi-project software house environment.",
+            "Responded with fast turnaround to high-priority demands from key enterprise clients while maintaining full system stability.",
         ],
-        },
+    },
 ];
 
 const testimonials = [
     {
-    title: "Fluent English",
-    testimonial:
-        "This feature makes it possible for me to go further in my studies and work",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
+        title: "3x National Champion",
+        testimonial:
+            "Competed at national level in Brazilian beach volleyball youth championships across multiple years, placing 1st each time. Built exceptional resilience, high-pressure composure, and elite teamwork skills through competitive sport.",
     },
     {
-    title: "Volleyball player",
-    testimonial:
-        "Since i am a child i love to play beach volleyball and others sports, that made my social skills very good",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
+        title: "Zero Critical Incidents",
+        testimonial:
+            "Contributed to eliminating critical production incidents for multiple consecutive months at ServiceNet — the first time the team reached this milestone on a widely-used enterprise system.",
     },
     {
-    title: "Artist",
-    testimonial:
-        "I like to draw sometimes, that skill taught me how to be patient and more creative",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
+        title: "Early Graduate · C1/C2 English",
+        testimonial:
+            "Enrolled in Computer Science at 16, on track to earn a full 4-year bachelor's degree before turning 20. Fluent English speaker (C1/C2) — able to work, communicate, and collaborate in fully English-speaking environments.",
     },
 ];
 
 const projects = [
     {
-    name: "Dashboard",
-    description:
-        "This project is a Dashboard with several functionalities and a incredible amount of pages and applications using the library syncfusion for react",
-    tags: [
-        {
-            name: "tailwind",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "react-js",
-            color: "red-text-gradient",
-        },
-        {
-            name: "syncfusion",
-            color: "pink-text-gradient",
-        },
-    ],
-    image: dashboardApp,
-    source_code_link: "https://github.com/rafaelandrade-dev/adminDashboardApp",
-    }
+        name: "UserHub — Auth Platform",
+        description:
+            "Full-featured user management platform with JWT authentication, protected routes, and a premium dark UI. Built with React, TypeScript, React Query, Zod, and Axios interceptors for automatic token handling.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "react-query",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: authLogin,
+        source_code_link: "https://github.com/rafaelandrade-dev/auth-login-project",
+    },
+    {
+        name: "Brazilian Fintech Dashboard",
+        description:
+            "High-performance financial dashboard for the Brazilian stock market (B3). Features live quotes via Brapi API, real-time sparkline charts, and a compound-interest 'Snowball' projection engine with DRIP toggle.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "recharts",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: financeDashboard,
+        source_code_link: "https://github.com/rafaelandrade-dev/finance-dashboard-br",
+    },
+    {
+        name: "RPG Initiative Manager",
+        description:
+            "Combat tracker for tabletop RPGs (D&D and others). Manage initiative order, HP, conditions, and turn flow with a medieval-themed UI. Features a virtual dice roller, battle queue strip, and local state persistence.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css-modules",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: rpgManager,
+        source_code_link: "https://github.com/rafaelandrade-dev/rpg-initiative-manager",
+    },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
