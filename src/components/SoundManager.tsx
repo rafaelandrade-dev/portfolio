@@ -1,5 +1,5 @@
 "use client";
-import { createContext, useContext, useRef, useState, useCallback, useEffect } from "react";
+import { createContext, useContext, useRef, useState, useCallback } from "react";
 
 type SoundContextType = {
   muted: boolean;
@@ -27,7 +27,7 @@ export function SoundProvider({ children }: { children: React.ReactNode }) {
 
   const getCtx = useCallback(() => {
     if (!ctxRef.current) {
-      ctxRef.current = new (window.AudioContext || (window as any).webkitAudioContext)();
+      ctxRef.current = new (window.AudioContext || (window as Window & { webkitAudioContext?: typeof AudioContext }).webkitAudioContext)();
     }
     return ctxRef.current;
   }, []);

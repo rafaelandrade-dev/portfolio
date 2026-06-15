@@ -24,7 +24,7 @@ export default function Contact() {
             className="font-sans font-bold text-[#0A0A0A] leading-[1.1] tracking-[-0.03em]"
             style={{ fontSize: "clamp(36px, 6vw, 56px)" }}
           >
-            Let's build something.
+            Let&apos;s build something.
           </h2>
 
           <div className="flex flex-col gap-2">

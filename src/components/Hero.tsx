@@ -10,10 +10,8 @@ const TARGET = "Rafael Andrade";
 function ScrambleText({ text }: { text: string }) {
   const [displayed, setDisplayed] = useState(text);
   const iterRef = useRef(0);
-  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
     iterRef.current = 0;
     const interval = setInterval(() => {
       iterRef.current += 0.5;

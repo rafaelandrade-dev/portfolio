@@ -1,6 +1,6 @@
 "use client";
 import { useRef, useEffect, useState } from "react";
-import { motion, useInView, useSpring, useMotionValue } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 
 function CountUp({ target, inView }: { target: number; inView: boolean }) {
   const [value, setValue] = useState(0);
@@ -73,7 +73,7 @@ export default function Volleyball() {
               Competitive sport teaches you things no classroom can. Three national
               championship titles in beach volleyball showed me how to perform under
               pressure, stay consistent when it matters most, and trust your
-              teammates with decisions you can't make alone.
+              teammates with decisions you can&apos;t make alone.
             </p>
             <p className="font-sans text-[17px] leading-[1.8] text-[#6B6B6B] mt-4">
               Those same principles (discipline, resilience, communication) are
