@@ -4,7 +4,7 @@ import { motion, useInView } from "framer-motion";
 
 const sentences = [
   {
-    text: "I'm Rafael, a 19-year-old Frontend Engineer based in João Pessoa, Brazil.",
+    text: "I'm Rafael, a 19-year-old Fullstack Engineer based in João Pessoa, Brazil.",
     annotation: null,
   },
   {

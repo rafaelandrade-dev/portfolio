@@ -20,9 +20,9 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Rafael Andrade · Frontend Engineer",
+  title: "Rafael Andrade · Fullstack Engineer",
   description:
-    "19-year-old Frontend Engineer from João Pessoa, Brazil. Currently at ServiceNet Tecnologia.",
+    "19-year-old Fullstack Engineer from João Pessoa, Brazil. Currently at ServiceNet Tecnologia.",
 };
 
 export default function RootLayout({

@@ -103,7 +103,7 @@ export default function Hero() {
             variants={fadeUp}
             className="font-mono text-xs tracking-[0.2em] text-[#6B6B6B] uppercase"
           >
-            Frontend Engineer
+            Fullstack Engineer
           </motion.p>
 
           <motion.h1
