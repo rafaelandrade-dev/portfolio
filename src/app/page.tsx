@@ -13,12 +13,12 @@ import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <SoundProvider>
-      <CustomCursor />
+      <div className="hidden md:block"><CustomCursor /></div>
       <MuteButton />
       <Navbar />
       <main>
         <Hero />
-        <JourneyStrip />
+        <div className="hidden md:block"><JourneyStrip /></div>
         <About />
         <Work />
         <Projects />

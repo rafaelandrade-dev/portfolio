@@ -100,7 +100,7 @@ export function MuteButton() {
   return (
     <button
       onClick={toggle}
-      className="fixed top-5 right-5 z-[100] w-9 h-9 rounded-full flex items-center justify-center text-sm border border-[rgba(10,10,10,0.1)] bg-[rgba(249,248,246,0.8)] backdrop-blur-sm transition-opacity hover:opacity-70"
+      className="hidden md:flex fixed top-5 right-5 z-[100] w-9 h-9 rounded-full items-center justify-center text-sm border border-[rgba(10,10,10,0.1)] bg-[rgba(249,248,246,0.8)] backdrop-blur-sm transition-opacity hover:opacity-70"
       aria-label={muted ? "Unmute" : "Mute"}
     >
       {muted ? "🔇" : "🔊"}

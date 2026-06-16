@@ -101,7 +101,7 @@ function ProjectCard({
         />
 
         {/* Links */}
-        <div className="absolute top-3 right-3 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10">
+        <div className="absolute top-3 right-3 flex gap-2 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-200 z-10">
           <a
             href={project.github}
             target="_blank"

@@ -109,7 +109,7 @@ export default function Hero() {
           <motion.h1
             custom={1}
             variants={fadeUp}
-            className="font-sans text-[clamp(48px,8vw,72px)] font-bold leading-[1.0] tracking-[-0.03em] text-[#0A0A0A]"
+            className="font-sans text-[clamp(32px,8vw,72px)] font-bold leading-[1.0] tracking-[-0.03em] text-[#0A0A0A]"
           >
             <ScrambleText text={TARGET} />
           </motion.h1>
@@ -158,19 +158,19 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
           className="flex justify-center md:justify-end"
         >
-          <div className="relative w-72 h-96 md:w-80 md:h-[420px]">
-            <div className="breathe w-full h-full rounded-2xl overflow-hidden bg-[#1a3a6b] border border-[rgba(10,10,10,0.08)]">
+          <div className="relative w-60 h-72 sm:w-72 sm:h-96 md:w-80 md:h-[420px]">
+            <div className="breathe relative w-full h-full rounded-2xl overflow-hidden bg-[#1a3a6b] border border-[rgba(10,10,10,0.08)]">
               <Image
                 src="/foto.jpg"
                 alt="Rafael Andrade"
                 fill
-                sizes="(max-width: 768px) 288px, 320px"
+                sizes="(max-width: 640px) 240px, (max-width: 768px) 288px, 320px"
                 className="object-cover object-center"
                 priority
               />
             </div>
             {/* Decorative dot grid */}
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 grid grid-cols-4 gap-1.5 opacity-30">
+            <div className="hidden sm:grid absolute -bottom-4 -right-4 w-24 h-24 grid-cols-4 gap-1.5 opacity-30">
               {Array.from({ length: 16 }).map((_, i) => (
                 <div key={i} className="w-1 h-1 rounded-full bg-[#0A0A0A]" />
               ))}

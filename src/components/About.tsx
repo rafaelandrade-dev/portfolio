@@ -52,7 +52,7 @@ function Sentence({
       {text}{" "}
       {annotation && (
         <span
-          className="absolute font-hand text-[#16A34A] text-lg whitespace-nowrap pointer-events-none"
+          className="hidden md:inline absolute font-hand text-[#16A34A] text-lg whitespace-nowrap pointer-events-none"
           style={{
             left: annotation.offsetX,
             top: annotation.offsetY,
